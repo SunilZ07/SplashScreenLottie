@@ -20,6 +20,12 @@
 </head>
 
 <body>
+  <script>
+    document.addEventListener('deviceready', function () {
+            console.log("navigator.splashscreen called" )
+            navigator.splashscreen.hide();
+    })
+</script>
   <app-root></app-root>
 </body>
 
